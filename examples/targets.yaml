@@ -1,0 +1,14 @@
+- name: K8sTestUsWebapp
+  directory: "kubernetes/test/us-east-2/webapp"
+  selector:
+    type: kubernetes
+    env: test
+    namespace: webapp
+    region: us-east-2
+- name: K8sProdUsWebapp
+  directory: "kubernetes/prod/us-east-2/webapp"
+  selector:
+    type: kubernetes
+    env: prod
+    namespace: webapp
+    region: us-east-2

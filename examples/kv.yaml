@@ -1,0 +1,151 @@
+- labels:
+    env: test
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: bucket
+  value: webapp-test-environment
+- labels:
+    env: test
+    namespace: webapp
+    type: kubernetes
+  key: domain
+  value: example-test.com
+- labels:
+    env: test
+    namespace: webapp
+    type: kubernetes
+  key: webappenvironment
+  value: test
+- labels:
+    env: test
+    namespace: webapp
+    type: kubernetes
+  key: newrelicbrowserid
+  value: '25000001'
+- labels:
+    env: test
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: newrelicappname
+  value: WebAppTest,WebAppTestUS
+- labels:
+    env: test
+    namespace: webapp
+    type: kubernetes
+  key: emailkey
+  value: some-sendgrid-value
+- labels:
+    env: test
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pgpassword
+  value: supersecret
+- labels:
+    env: test
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pguser
+  value: webapp
+- labels:
+    env: test
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pgdatabase
+  value: webapp
+- labels:
+    env: test
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pghost
+  value: something.something.us-east-2.rds.amazonaws.com
+- labels:
+    env: test
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: encryptedkey
+  value: someSuperlong
+- labels:
+    type: kubernetes
+  key: newreliclicense
+  value: somelongsecret
+- labels:
+    env: prod
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: bucket
+  value: webapp-prod-us-east-2
+- labels:
+    env: prod
+    namespace: webapp
+    type: kubernetes
+  key: domain
+  value: example.com
+- labels:
+    env: prod
+    namespace: webapp
+    type: kubernetes
+  key: webappenvironment
+  value: prod
+- labels:
+    env: prod
+    namespace: webapp
+    type: kubernetes
+  key: newrelicbrowserid
+  value: '14000002'
+- labels:
+    env: prod
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: newrelicappname
+  value: WebApp,WebAppUS
+- labels:
+    env: prod
+    namespace: webapp
+    type: kubernetes
+  key: emailkey
+  value: some-sendgrid-value
+- labels:
+    env: prod
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pgpassword
+  value: supersecret
+- labels:
+    env: prod
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pguser
+  value: webapp
+- labels:
+    env: prod
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pgdatabase
+  value: webapp
+- labels:
+    env: prod
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: pghost
+  value: something.production.us-east-2.rds.amazonaws.com
+- labels:
+    env: prod
+    namespace: webapp
+    region: us-east-2
+    type: kubernetes
+  key: encryptedkey
+  value: someSuperlong
+

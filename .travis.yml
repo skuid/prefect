@@ -1,0 +1,12 @@
+sudo: false
+language: go
+
+go:
+- 1.7
+- tip
+
+before_install:
+- go get golang.org/x/tools/cmd/cover
+
+script:
+- go test -cover -race ./...
