@@ -81,7 +81,7 @@ func main() {
 			rendered, err := execute(template, templateData, contextData, target)
 			dieIfError(err)
 
-			outputPath := filepath.Join(target.Directory, template)
+			outputPath := filepath.Join(target.Directory, filepath.Base(template))
 
 			if len(target.Directory) == 0 {
 				fmt.Printf("# Rendered for target %s\n", target.Name)

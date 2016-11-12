@@ -108,7 +108,8 @@ Rendered file at kubernetes/test/us-east-2/webapp/config.yaml
 Rendered file at kubernetes/prod/us-east-2/webapp/config.yaml
 ```
 
-Prefect will automatically create the files in the directory specified by each target.
+Prefect will automatically create the files in the directory specified by each target. Ommiting
+the `directory` key in a target will make prefect print to STDOUT.
 
 ## Functions
 
@@ -176,12 +177,14 @@ Usage:
 prefect [options] <template>
 
   <template>
-    	The template to read in
+        The template to read in
   -c, --context string
-    	The context values file to use
+        The context values file to use
   -s, --selector value
-    	The selectors to use. Each selector should have the format "k=v".
-    	Can be specified multiple times, or a comma-separated list
+        The selectors to use. Each selector should have the format "k=v".
+        Can be specified multiple times, or a comma-separated list
+  -t, --target string
+        A target file to use. This is ignored if selectors are specified
 ```
 
 ## Development
